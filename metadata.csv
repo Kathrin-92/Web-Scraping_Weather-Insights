@@ -1,0 +1,27 @@
+﻿project title;scrape the web;;
+description;web scraping program used to extract weather data from three websites ;;
+author;Kathrin Haelbich;;
+software version;Python 3.9.15 Anaconda;;
+packages and libraries;h5py;;
+;numpy;;
+;os;;
+;logging;;
+;requests;;
+;beautiful soup;;
+;re;;
+;numpy;;
+;datetime;;
+;pandas;;
+;plotly.express;;
+data collection period;12.12.2022 to 13.12.2022;;
+log file;scrapes-log.log;datetime of data fetched from all three websites;
+URLs;www.wetterdienst.de/Deutschlandwetter/Hamburg/Aktuell/;www.wetteronline.de/wetter/hamburg ;www.luft.hamburg.de/clp/meteorologie/clp1/meteorology/tmp
+data storage;hdf5;;
+hdf5 structure (groups);Group 1: wetterdienst.de;Group 2: wetteronline.de;Group 3: luft.hamburg.de
+hdf5 structure (datasets);Group 1/dataset 1: insert_datetime (datetype: datetime) ;Group 2/dataset 1: insert_datetime (datetype: datetime) ;Group 3/dataset 1: insert_datetime (datetype: datetime) 
+;Group 1/dataset 2: weather (datetype: string) ;Group 2/dataset 2: temperature (datetype: float) ;Group 3/dataset 2: temperature (datetype: float) 
+;Group 1/dataset 3: temperature (datetype: float) ;;
+;Group 1/dataset 4: rainfall (datetype: float) ;;
+units of measurement;temperature in °C;;
+;amount of rainfall in mm;;
+;"datetime in format (""%Y-%m-%d %H:%M:%S"")";;
