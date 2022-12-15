@@ -2,7 +2,6 @@
 ## Building a Web Scraping Programm for Collecting Weather Data 
 
 
-## Table of Contents
 1. [General Info](#General-Info)
 2. [Installation](#Installation)
 3. [Contributing](#Contributing)
@@ -22,6 +21,10 @@ Key Skills I Was Able to Learn:
 * In addition, in the context of a term paper, discussion of the legal and ethical aspects of web scraping as well as the general process of such a project. 
 
 
+![Verlauf_Temperatur](https://user-images.githubusercontent.com/71875232/207880998-88fc118e-bf2a-40d5-a7a9-0c0aca408ff0.png)
+
+
+
 ## Installation
 
 **Requirements:** 
@@ -39,7 +42,6 @@ Make sure you have Python 3.7+ installed on your computer.
 * datetime
 * pandas
 * plotly.express
-
 
 
 ## Contributing 
